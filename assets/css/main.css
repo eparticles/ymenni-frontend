@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("forms.css");
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-accent: #6e46dc;
+    --color-primary: #000000;
+    --color-inverted: #ffffff;
+    --color-secondary: #3c4646;
+    --border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -- special -- */
+.text_accent {
+    color: var(--color-accent);
+    cursor: pointer;
+}
+
+/* -- AuthPage -- */
+.AuthPage {
+    background: #ffffff;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.AuthPage-Container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto 50px auto;
+    width: 50%;
+}
+
+.AuthPage-Logo {
+    margin-bottom: 22px;
+}
+
+.Logo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Logo-Image {
+    filter: invert(23%) sepia(87%) saturate(3357%) hue-rotate(249deg)
+        brightness(93%) contrast(84%);
+    height: 64px;
+    width: 64px;
+}
+
+.Logo-Title {
+    color: var(--color-accent);
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 12px;
+}
